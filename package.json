@@ -1,0 +1,73 @@
+{
+  "_from": "mongoose-audit-trail",
+  "_id": "mongoose-audit-trail",
+  "_inBundle": false,
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mongoose-audit-trail",
+    "name": "mongoose-audit-trail",
+    "escapedName": "mongoose-audit-trail",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_spec": "mongoose-audit-trail",
+  "bugs": {
+    "url": "https://github.com/MAkhamis/mongoose-audit-trail"
+  },
+  "bundleDependencies": [],
+  "contributors": [
+    {
+      "name": "Mohammad Khamis",
+      "email": "m@khamis.info"
+    }
+  ],
+  "dependencies": {
+    "deep-empty-object": "^1.0.5",
+    "jsondiffpatch": "^0.1.38",
+    "lodash.pick": "^4.4.0",
+    "omit-deep": "git://github.com/izigibran/omit-deep.git#0.4.0",
+    "power-assign": "^0.2.10"
+  },
+  "deprecated": false,
+  "description": "Manage Mongo Collection diff History and versions",
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^10.2.0",
+    "mongoose": "^6.10.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/MAkhamis/mongoose-audit-trail#readme",
+  "keywords": [
+    "mongoose",
+    "audit",
+    "oplog",
+    "diff",
+    "history",
+    "versioning"
+  ],
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "name": "mongoose-audit-trail",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAkhamis/mongoose-audit-trail.git"
+  },
+  "scripts": {
+    "test": "istanbul cover --report lcov  _mocha tests --recursive"
+  },
+  "version": "2.0.7"
+}
