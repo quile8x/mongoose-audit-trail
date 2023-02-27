@@ -19,13 +19,13 @@
   ],
   "_spec": "mongoose-audit-trail",
   "bugs": {
-    "url": "https://github.com/MAkhamis/mongoose-audit-trail"
+    "url": "https://github.com/quile8x/mongoose-audit-trail"
   },
   "bundleDependencies": [],
   "contributors": [
     {
-      "name": "Mohammad Khamis",
-      "email": "m@khamis.info"
+      "name": "QuiLe",
+      "email": "quile8x@gmail.com"
     }
   ],
   "dependencies": {
@@ -50,7 +50,7 @@
   "engines": {
     "node": "*"
   },
-  "homepage": "https://github.com/MAkhamis/mongoose-audit-trail#readme",
+  "homepage": "https://github.com/quile8x/mongoose-audit-trail#readme",
   "keywords": [
     "mongoose",
     "audit",
@@ -64,10 +64,10 @@
   "name": "mongoose-audit-trail",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MAkhamis/mongoose-audit-trail.git"
+    "url": "git+https://github.com/quile8x/mongoose-audit-trail.git"
   },
   "scripts": {
     "test": "istanbul cover --report lcov  _mocha tests --recursive"
   },
-  "version": "2.0.7"
+  "version": "3.0.0"
 }
